@@ -9,8 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.5"
+    "axios": "^1.7.9",
+    "bootstrap": "^3.4.1",
+    "formik": "^2.4.6",
+    "next": "15.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-toastify": "^11.0.3",
+    "rollbar": "^2.26.4",
+    "sass": "^1.83.4",
+    "yup": "^1.6.1"
   }
 }

@@ -10,7 +10,7 @@ const Footer = () => {
             <p>Tire sua ideia do papel, <small className='bold'>Do zero a startup!</small></p>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4 text-center">
             <ul className="list-unstyled list-inline social" style={{ marginTop: 20 }}>
               <li>
                 <a href='https://facebook.com/cerrovalley' title='Cerro Valley | Facebook'>

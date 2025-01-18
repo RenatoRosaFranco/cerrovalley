@@ -1,47 +1,58 @@
 [
   {
     "id": 1,
+    "cover": "images/introducao.jpeg",
     "name": "Introdução",
-    "author": "Renato Rosa Franco"
+    "author": "Renato Rosa Franco",
+    "released": true
   },
   {
     "id": 2,
+    "cover": "images/visao-empresarial.jpeg",
     "name": "Visão Empresarial",
-    "author": "Renato Rosa Franco"
+    "author": "Renato Rosa Franco",
+    "released": true
   },
   {
     "id": 3,
+    "cover": "images/modelo-negocio.jpeg",
     "name": "Modelo de Negócio",
-    "author": "Renato Rosa Franco"
+    "author": "Renato Rosa Franco",
+    "released": true
   },
   {
     "id": 4,
-    "cover": "",
+    "cover": "images/validacao-ideia.jpeg",
     "name": "Validação de ideia",
-    "author": "Renato Rosa Franco"
+    "author": "Renato Rosa Franco",
+    "released": false
   },
   {
     "id": 5,
-    "cover": "",
+    "cover": "images/definicao-icp.jpeg",
     "name": "Definição de ICP",
-    "author": "Renato Rosa Franco"
+    "author": "Renato Rosa Franco",
+    "released": false
   },
   {
     "id": 6,
-    "cover": "",
+    "cover": "images/marketing-aquisicao.jpeg",
     "name": "Marketing e Aquisição de Clientes",
-    "author": "Renato Rosa Franco"
+    "author": "Renato Rosa Franco",
+    "released": false
   },
   {
     "id": 7,
-    "cover": "",
+    "cover": "images/gestao-financeira.jpeg",
     "name": "Gestão Financeira e Principais Métricas",
-    "author": "Renato Rosa Franco"
+    "author": "Renato Rosa Franco",
+    "released": false
   },
   {
     "id": 8,
-    "cover": "",
+    "cover": "images/bonus.jpeg",
     "name": "Bônus",
-    "author": "Renato Rosa Franco"
+    "author": "Renato Rosa Franco",
+    "released": false
   }
 ]

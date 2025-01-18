@@ -5,12 +5,12 @@ import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 
 const ModuleCard = ({ section }) => {
-  const { cover } = section;
+  const { cover, released } = section;
 
   return(
-    <div className="module-card col-md-4">
-      <div className="panel panel-default" 
-        style={{ backgroundImage: `src(${cover})`}}>
+    <div className={`module-card col-md-4 ${ released === false ? 'blend' : ''}`} style={{ backgroundImage: `url(${cover})`,
+    backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <div className="panel panel-default">
         <i className="fa-solid fa-rocket rocket"></i>
       </div>
     </div>

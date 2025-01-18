@@ -12,12 +12,25 @@ const Newsletter = () => {
 
   const handleSubmit = async (values, { resetForm }) => {
     try {
-      resetForm();
-      toast.success('Você se inscreveu com sucesso.')
+      const response = await fetch('/api/newsletters', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email: values.email }),
+      });
+
+      if (response.ok) {
+        resetForm();
+        toast.success('Você se inscreveu com sucesso.');
+      } else {
+        const errorData = await response.json();
+        toast.error(errorData.error || 'Falha ao inscrever-se, tente novamente.');
+      }
     } catch (error) {
-      toast.error('Falha ao inscrever-se, tente novamente.')
+      toast.error('Erro de rede, tente novamente.');
     }
-  }
+  };
 
   return(
     <section id="newsletter">

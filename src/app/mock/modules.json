@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Introdução",
+    "author": "Renato Rosa Franco"
+  },
+  {
+    "id": 2,
+    "name": "Visão Empresarial",
+    "author": "Renato Rosa Franco"
+  },
+  {
+    "id": 3,
+    "name": "Modelo de Negócio",
+    "author": "Renato Rosa Franco"
+  },
+  {
+    "id": 4,
+    "cover": "",
+    "name": "Validação de ideia",
+    "author": "Renato Rosa Franco"
+  },
+  {
+    "id": 5,
+    "cover": "",
+    "name": "Definição de ICP",
+    "author": "Renato Rosa Franco"
+  },
+  {
+    "id": 6,
+    "cover": "",
+    "name": "Marketing e Aquisição de Clientes",
+    "author": "Renato Rosa Franco"
+  },
+  {
+    "id": 7,
+    "cover": "",
+    "name": "Gestão Financeira e Principais Métricas",
+    "author": "Renato Rosa Franco"
+  },
+  {
+    "id": 8,
+    "cover": "",
+    "name": "Bônus",
+    "author": "Renato Rosa Franco"
+  }
+]

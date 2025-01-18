@@ -1,5 +1,14 @@
+// Variables
+$primary-color: #385DA6;
+$second-color: #35D0F2;
+$thir-color: #64BF4B;
+$fourth-color: #7DBF4E;
+$fifth-color: #F29441;
+
+
 body {
   position: relative;
+  background-color: #000 !important;
   font-size: 16px;
 }
 
@@ -13,7 +22,113 @@ body {
   text-transform: uppercase;
 }
 
+.no-decoration {
+  position: relative;
+  text-decoration: none !important;
+}
+
 .no-resize {
   position: relative;
   resize: none;
+}
+
+
+#hero {
+  position: relative;
+  background-color: transparent;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  h1 {
+    color: $fourth-color;
+    position: relative;
+    font-weight: bold;
+    font-size: 64px;
+  }
+
+  h3 {
+    position: relative;
+    color: #FFF;
+    font-size: 40px;
+  }
+
+  .badge {
+    position: relative;
+    background-color: $thir-color;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+}
+
+#modules {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  .panel-default {
+    position: relative;
+    background-color: transparent;
+    border: none;
+  }
+
+  .module-card {
+    position: relative;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    width: 280px;
+    height: 420px;
+  
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    .rocket {
+      color: #FFF;
+      border: 1px solid #FFF;
+      background-color: transparent;
+      border-radius: 50px;
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+}
+
+#newsletter {
+  position: relative;
+  border: 1px solid #EEE;
+  background-color: #EEE;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#footer {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: white;
+
+  .social {
+    position: relative;
+    
+    li {
+      position: inherit;
+      margin-right: 10px;
+    }
+
+    a {
+      position: relative;
+      color: white !important;
+    }
+
+    i {
+      position: relative;
+      border-radius: 20px;
+      border: 1px solid #EEE;
+      padding: 10px;
+    }
+  }
 }
